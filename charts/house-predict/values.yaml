@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 2
 image:
-  repository: draft
-  tag: dev
+  repository: 381271138029.dkr.ecr.us-west-2.amazonaws.com/seiyamiyaoka/house-predict
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
